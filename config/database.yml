@@ -1,0 +1,17 @@
+production:
+  adapter: postgresql
+  database: gemfurious-prod
+  pool: 5
+  timeout: 5000
+
+development:
+  adapter: postgresql
+  database: gemfurious-sev
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  database: gemfurious-test
+  pool: 5
+  timeout: 5000
